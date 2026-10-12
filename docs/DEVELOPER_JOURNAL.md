@@ -353,3 +353,8 @@ Daily log of technical updates, performance metrics, bug fixes, and architectura
 - **Summary**: updated spring physics damping on modal slide animations
 - **Technical Detail**: Adjusted stiffness and damping parameters across modal containers for 60fps spring transitions. Reduced layout shift during panel opens.
 - **Status**: Verified clean build & local tests passing.
+
+### [2026-10-12 02:52 UTC] — fixed quick capture input bar positioning when keyboard opens
+- **Summary**: fixed quick capture input bar positioning when keyboard opens
+- **Technical Detail**: Increased touch target height to 44px on QuickCapture bar icons. Ensured seamless typing experience on iOS Safari and Android Chrome.
+- **Status**: Verified clean build & local tests passing.
