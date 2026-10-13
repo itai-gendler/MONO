@@ -358,3 +358,8 @@ Daily log of technical updates, performance metrics, bug fixes, and architectura
 - **Summary**: fixed quick capture input bar positioning when keyboard opens
 - **Technical Detail**: Increased touch target height to 44px on QuickCapture bar icons. Ensured seamless typing experience on iOS Safari and Android Chrome.
 - **Status**: Verified clean build & local tests passing.
+
+### [2026-10-13 04:08 UTC] — fixed hotkey shortcut listeners inside command palette input
+- **Summary**: fixed hotkey shortcut listeners inside command palette input
+- **Technical Detail**: Prevented accidental shortcut triggers when focused inside rich content editable elements. Improved Escape key modal dismissal stack handling.
+- **Status**: Verified clean build & local tests passing.
