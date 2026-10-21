@@ -1,0 +1,10 @@
+scenarioKinds:
+- id: primary
+  name: Primary
+  description: A supported path that achieves the capability outcome.
+- id: validation
+  name: Validation
+  description: Input is refused or cannot yet be submitted.
+- id: edge
+  name: Edge
+  description: An empty result, dependency failure, or exceptional condition.
